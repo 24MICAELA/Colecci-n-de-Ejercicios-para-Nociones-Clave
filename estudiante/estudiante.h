@@ -1,16 +1,17 @@
-//
-// Created by Micae on 04/11/2024.
-//
-
 #ifndef ESTUDIANTE_H
 #define ESTUDIANTE_H
 
+#include <string>
+#include "../persona/Persona.h"
 
+class Estudiante : public Persona {
+    std::string grado;
 
-class estudiante {
-
+public:
+    void setGrado(const std::string &grado);
+    std::string getGrado();
+    void mostrarDetalles();
 };
 
+#endif
 
-
-#endif //ESTUDIANTE_H

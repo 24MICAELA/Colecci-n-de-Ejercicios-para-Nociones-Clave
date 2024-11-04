@@ -1,3 +1,6 @@
+#include <iostream>
+#include "../nuevo/nuevo.h"
 
-
-#include "nuevo.h"
+void imprimirMensaje() {
+    std::cout << "Hola CLion" << std::endl;
+}
