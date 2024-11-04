@@ -8,4 +8,5 @@ add_executable(Nociones_Clave
         persona/persona.h
         persona/persona.cpp
         estudiante/estudiante.h
-        estudiante/estudiante.cpp)
+        estudiante/estudiante.cpp
+        nuevo/nuevo.cpp)
